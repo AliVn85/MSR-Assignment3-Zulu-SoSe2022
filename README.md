@@ -19,14 +19,15 @@ Lastly, we would like to mention that this paper is not the one we used for Assi
 #### Input data: 
 Input data were extracted with the needed properties from this [MongoDB dump](https://zenodo.org/record/5901956#.Ykaz2hBBzzc).
 It got about 60+ GB of the MongoDB installation directory and a day for this primary step (data_extract.py & data_access.py).
-For your convenience, we reproduced the data extraction step, You may download the extracted files out of the dump here [click here to download](https://cloud.uni-koblenz.de/s/DgEpEmFYctdEppW).
+
 Our repo that contains all the reproduced content: 
-(link to the uploaded data)
+For your convenience, we reproduced the data extraction step which provides input for the models, You may download the extracted files out of the dump here [click here to download](https://cloud.uni-koblenz.de/s/DgEpEmFYctdEppW). The downloaded input files go to the "../data/crawl" directory.
 #### Output data:
 Links to the paper’s results:
 https://github.com/RegenKordel/LYNX-BeyondDuplicates/tree/main/RQ3_link_detection
+
 Links to our reproduced output:
-(link to the uploaded data)
+https://github.com/AliVn85/MSR-Assignment3-Zulu-SoSe2022/tree/main/process/RQ3_link_detection
 ### Findings:
 The reproduced process as well as reproduced outputs are exactly identical to the original paper's findings. That is because little to no changes happened to the scripts in the way that it changes the results, and also we used the identical MongoDB dump, which sealed our reproduction process as a high-quality success.
 
@@ -94,7 +95,7 @@ Lastly, by looking at the model evaluation results, we have successfully achieve
 -	Active Internet Connection
 ### Validation:
 For evaluating a model, meaning how precise it is working based on the expectation we have for it. Therefore, a higher evaluation score is better. This paper tried to create some ways to better understand the status of an issue in ITS environments. As you can see, the evaluation metrics such as the F1 Score output of the SCCNN Jupyter file depict a higher value than the original paper's, validating our work.
-(insert the image)
+![results](https://github.com/AliVn85/MSR-Assignment3-Zulu-SoSe2022/blob/main/data/output/comparison.jpg?raw=true)
 ### Data: 
 ***Inputs:***
 Since our enhancement is the continuation of the reproduction step, the input is the same as we mentioned above in the Reproduced baseline part.
@@ -104,7 +105,7 @@ The output contains cleaned links and the result of the Jupyter files, scattered
 But the actual output of our enhancement work resides in the output folder which compares the original and our newly revised enhancement job.
 To reproduce this, please run the ``SingleChannel.ipynb`` file and run the model depicted in the picture (`LTvNLOL_preds`).
 
-######References:
+###### References:
 
 Wortman, P. M. (1983). "Evaluation research – A methodological perspective". Annual Review of Psychology. 34: 223–260. doi:10.1146/annurev.ps.34.020183.001255)
 
