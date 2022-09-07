@@ -1,0 +1,5 @@
+Class,Precision,Recall,F1
+Duplication,0,0.0,
+Non-Links,0.3333333333333333,1.0,0.5
+Other-Links,0,0.0,
+Both,0.0,0.0,0.0
