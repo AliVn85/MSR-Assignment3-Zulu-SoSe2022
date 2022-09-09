@@ -106,7 +106,7 @@ But the actual output of our enhancement work resides in the output folder which
 To reproduce this, please run the ``SingleChannel.ipynb`` file and run the model depicted in the picture (`LTvNLOL_preds`).
 
 ## Bonus - Reproduction Steps:
-1. Download the [extracted files](https://zenodo.org/record/5901956#.Ykaz2hBBzzc) out of the MongoDB dump. 
+1. Download the [extracted files](https://cloud.uni-koblenz.de/s/DgEpEmFYctdEppW) out of the MongoDB dump. 
 2. Put the unzipped data folder into the root folder so that you have the directory structure of "../data/crawl".
 3. Install the python packages on your machine.
 4. Run Jupyter Notebook (as the paper has mentioned a GPU is recommended).
