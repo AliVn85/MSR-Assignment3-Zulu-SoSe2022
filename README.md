@@ -105,6 +105,13 @@ The output contains cleaned links and the result of the Jupyter files, scattered
 But the actual output of our enhancement work resides in the output folder which compares the original and our newly revised enhancement job.
 To reproduce this, please run the ``SingleChannel.ipynb`` file and run the model depicted in the picture (`LTvNLOL_preds`).
 
+## Bonus - Reproduction Steps:
+1. Download the extracted files out of the MongoDB dump.
+2. Put the unzipped data folder into the root folder so that you have the directory structure of "../data/crawl".
+3. Install the python packages on your machine.
+4. Run Jupyter Notebook (as the paper has mentioned a GPU is recommended).
+5. Run the SingleChannel.ipynb of RQ3 in the notebook as we have already done the previous steps for you in case you want to rerun the experiment.
+
 ###### References:
 
 Wortman, P. M. (1983). "Evaluation research – A methodological perspective". Annual Review of Psychology. 34: 223–260. doi:10.1146/annurev.ps.34.020183.001255)
