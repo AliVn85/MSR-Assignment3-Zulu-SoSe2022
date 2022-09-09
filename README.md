@@ -34,9 +34,9 @@ The reproduced process as well as reproduced outputs are exactly identical to th
 ## MSR study enhancement
 ### Threat:
 This paper provided several models to predict the situation of an issue ticket and how it can be linked to the others that may have included a duplication or partially interconnected contents. It then further compared their state-of-the-art technique. Consequently, this makes the evaluation part even more significant.
-For a model to properly gets trained, and accurately classify the types, it should be trained in the way that types of the groups are equally included in the training set. This helps to obtain a non-biased result. (Wortman, P. M. (1983))
+For a model to properly gets trained, and accurately classify the types, it should be trained in the way that types of the groups are equally included in the training set. This helps to obtain a non-biased result.[[1]](#1)
 However, in the process of the evaluation of this paper, the researchers made a relatively subpar method in the sampling part which affected the whole process including the evaluation part severely. 
-Therefore, based on the definition of internal validity threat (Feldt, Robert & Magazinius, Ana. (2010)), the outcome must have been changed. 
+Therefore, based on the definition of internal validity threat [[2]](#2), the outcome must have been changed. 
 
 For your information, we have checked the mentioned Thread to Validity section of the paper but they are not possible to worked with due to the characterstics of them, or too complex to be studied on.
 ### Traces:
@@ -112,8 +112,8 @@ To reproduce this, please run the ``SingleChannel.ipynb`` file and run the model
 4. Run Jupyter Notebook (as the paper has mentioned a GPU is recommended).
 5. Run the SingleChannel.ipynb of RQ3 in the notebook as we have already done the previous steps for you in case you want to rerun the experiment.
 
-###### References:
-
+## References
+<a id="1">[1]</a> 
 Wortman, P. M. (1983). "Evaluation research – A methodological perspective". Annual Review of Psychology. 34: 223–260. doi:10.1146/annurev.ps.34.020183.001255)
-
+<a id="2">[2]</a> 
 Feldt, Robert & Magazinius, Ana. (2010). Validity Threats in Empirical Software Engineering Research - An Initial Survey.. 374-379.
