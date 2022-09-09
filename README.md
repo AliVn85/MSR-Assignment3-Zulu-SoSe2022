@@ -110,7 +110,7 @@ To reproduce this, please run the ``SingleChannel.ipynb`` file and run the model
 2. Put the unzipped data folder into the root folder so that you have the directory structure of "../data/crawl".
 3. Install the python packages on your machine.
 4. Run Jupyter Notebook (as the paper has mentioned a GPU is recommended).
-5. Run the SingleChannel.ipynb of RQ3 in the notebook as we have already done the previous steps for you in case you want to rerun the experiment.
+5. Run the *SingleChannel.ipynb* of RQ3 in the notebook as we have already done the previous steps for you in case you want to rerun the experiment.
 
 ## References
 <a id="1">[1]</a> 
