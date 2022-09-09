@@ -115,5 +115,6 @@ To reproduce this, please run the ``SingleChannel.ipynb`` file and run the model
 ## References
 <a id="1">[1]</a> 
 Wortman, P. M. (1983). "Evaluation research – A methodological perspective". Annual Review of Psychology. 34: 223–260. doi:10.1146/annurev.ps.34.020183.001255)
-<a id="2">[2]</a> 
+
+<a id="2">[2]</a>
 Feldt, Robert & Magazinius, Ana. (2010). Validity Threats in Empirical Software Engineering Research - An Initial Survey.. 374-379.
